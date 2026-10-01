@@ -18,14 +18,14 @@
 | 任务 | 从这里开始 | 然后 |
 |---|---|---|
 | 加一个成员 | `component.yaml` 的 `shell.members` | `main.go` Registry 里登记它的 `module.New`、`go.mod` 里加它的模块、`BRICKKIT.md` 的外壳声明 |
-| 把成员升到新版本 | `shell.members` | `go.mod`，然后升 `metadata.version` 并重新构建 |
+| 把成员升到新版本 | `shell.members` | `go.mod`，然后升 `metadata.version`、重新构建并发布（见下方发布一节） |
 | 改外壳自己的配置 | `component.yaml` 的 `configSchema` | `BRICKKIT.md` 的配置指南一节 |
 
 ## 构建与测试
 
 ```bash
 go build -o /dev/null ./...        # 编译外壳和每个已登记的成员
-brickkit build be/go-infra           # 镜像，tag 为 metadata.version；外壳须已在 brickkit.yaml 里
+brickkit build be/go-infra           # 镜像，tag 为 metadata.version；在项目根目录跑，外壳须已在它的 brickkit.yaml 里
 brickkit lint --strict             # 清单和文档
 ```
 
@@ -33,9 +33,20 @@ brickkit lint --strict             # 清单和文档
 
 外壳自己没有测试：启动器及其失败契约在 be-sdk-go 里测试，每个成员在它自己的仓库里测试。
 
+## 发布
+
+外壳和组件一样，在本仓库根目录发布：
+
+```bash
+git push origin main                          # 发布检查要求提交已在远端
+brickkit release --notes-file <说明文件>       # tag 为 <版本>（如 1.0.0），注解 tag，自动推送；说明文件放在本目录之外
+```
+
+tag 就是裸版本号。不打 `v` tag：没有人把外壳当 Go 模块 import。所以加成员、换成员版本，都要先在这里提交并发布；然后装配项目提交新的子模块指针，跑 `brickkit upgrade be/go-infra@<版本>` 和 `brickkit build be/go-infra`。
+
 ## 设计决策
 
-- 外壳是项目代码，不是单独的仓库：哪些组件共用一个进程是本项目的部署选择，所以它和 `brickkit.yaml`、部署文件一起改（项目决策 0022：外壳是项目代码）。
+- 外壳是独立仓库，这样每个合并这些组件的装配项目都用同一份成员清单构建同一个镜像；be-assembly-standard 以 Git 子模块的形式把它检出在 `shell/be/go-infra`（该项目的决策 0022）。一次部署托管编译进来的哪些成员，仍由那个项目的部署文件选择。
 - 一个外壳就是一个镜像、一份成员清单：`shell.members` 写明编译进去的成员确切版本，`main.go` 里的 Registry恰好登记这些成员。
 - 启动器逻辑全部在 SDK 里（`shell.Main`），这个目录只剩一份成员清单，长不出自己的逻辑。
 - 外壳从不跑迁移：brickKit 在外壳启动前用每个成员自己的镜像执行该成员的迁移。
@@ -52,8 +63,8 @@ brickkit lint --strict             # 清单和文档
 ## 改代码之前
 
 1. 加、删或升级成员时，`shell.members`、`main.go` 里的 Registry和 `go.mod` 一起改，`BRICKKIT.md` 的外壳声明也一起改。
-2. 每个成员在 `registry/schemas.tsv` 里都有一行；`make db-init` 把它的角色授给 `shell_go_infra`，没有对应行的成员会被拒绝。
-3. 成员清单或成员版本变了，外壳就要新的 `metadata.version` 并重新构建；`brickkit up` 会以 `IMAGE_STALE` 拦下过期镜像。
+2. 每个成员在装配项目的 `registry/schemas.tsv` 里都有一行；该项目的 `make db-init` 把它的角色授给 `shell_go_infra`，没有对应行的成员会被拒绝。
+3. 成员清单或成员版本变了，外壳就要新的 `metadata.version`、重新构建并从本仓库发布；`brickkit up` 会以 `IMAGE_STALE` 拦下过期镜像。
 4. 这里的代码只登记成员：不写路由、处理函数、查询，也不写成员之间的调用。
 5. 提交前跑 `brickkit lint --strict` 和构建与测试一节里的构建。
 

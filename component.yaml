@@ -5,7 +5,7 @@ metadata:
   name: Go infrastructure shell
   version: 1.0.0
   description: Runs the infrastructure and integration Go components (permissions, identity, workflow, notification, channels) in one process to save memory and CPU.
-  repository: https://github.com/brickKit/be-assembly-standard
+  repository: https://github.com/brickKit/be-go-infra
   license: Apache-2.0
   vendor: brickKit
 shell:

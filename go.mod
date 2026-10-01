@@ -1,4 +1,4 @@
-module github.com/brickKit/be-assembly-standard/shell/be/go-infra
+module github.com/brickKit/be-go-infra
 
 go 1.25.11
 

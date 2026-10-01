@@ -18,14 +18,14 @@ The AI guide to developing this shell. What it hosts and how to deploy it: `BRIC
 | Task | Start here | Then |
 |---|---|---|
 | Add a member | `shell.members` in `component.yaml` | its `module.New` in the Registry in `main.go`, its module in `go.mod`, the Shell declaration in `BRICKKIT.md` |
-| Move a member to a new version | `shell.members` | `go.mod`, then bump `metadata.version` and rebuild |
+| Move a member to a new version | `shell.members` | `go.mod`, then bump `metadata.version`, rebuild and release (Release below) |
 | Change the shell's own configuration | `configSchema` in `component.yaml` | Configuration in `BRICKKIT.md` |
 
 ## Build and test
 
 ```bash
 go build -o /dev/null ./...        # compiles the shell and every registered member
-brickkit build be/go-infra           # the image, tagged with metadata.version; needs the shell in brickkit.yaml
+brickkit build be/go-infra           # the image, tagged with metadata.version; run from the project root, with the shell in its brickkit.yaml
 brickkit lint --strict             # manifest and documents
 ```
 
@@ -33,9 +33,20 @@ Success: `go build` prints nothing; `brickkit build` records in the image the me
 
 The shell has no tests of its own: the launcher and its failure contract are tested in be-sdk-go, and each member is tested in its own repository.
 
+## Release
+
+The shell is released from the root of this repository, like a component:
+
+```bash
+git push origin main                          # the release check needs the commit on the remote
+brickkit release --notes-file <notes file>    # tag <version> (e.g. 1.0.0), annotated and pushed; keep the notes file outside this directory
+```
+
+The tag is the bare version. There is no `v` tag: nothing imports the shell as a Go module. Adding a member or moving one to a new version is therefore a commit and a release here first; the assembly project then commits the new submodule pointer and runs `brickkit upgrade be/go-infra@<version>` and `brickkit build be/go-infra`.
+
 ## Design decisions
 
-- The shell is project code, not a repository of its own: which components share a process is this project's deployment choice, so it changes together with `brickkit.yaml` and the deploy file (project decision 0022, shells are project code).
+- The shell is a repository of its own, so every assembly project that merges these components builds the same image from the same member list; be-assembly-standard checks it out as a Git submodule at `shell/be/go-infra` (its decision 0022). Which of the compiled-in members a deployment hosts is still chosen in that project's deploy file.
 - One shell is one image with one member list: `shell.members` names the exact member versions compiled in, and the Registry in `main.go` lists exactly those members.
 - All launcher logic lives in the SDK (`shell.Main`), so this directory stays a list of members and cannot grow logic of its own.
 - The shell never runs migrations: brickKit runs each member's migration from the member's own image before the shell starts.
@@ -52,8 +63,8 @@ The shell has no tests of its own: the launcher and its failure contract are tes
 ## Before changing code
 
 1. Adding, removing or moving a member changes `shell.members`, the Registry in `main.go` and `go.mod` together, and the Shell declaration in `BRICKKIT.md`.
-2. Every member has a row in `registry/schemas.tsv`; `make db-init` grants its role to `shell_go_infra` and refuses a member without one.
-3. A changed member list or member version means a new `metadata.version` for the shell and a rebuild; `brickkit up` stops a stale image with `IMAGE_STALE`.
+2. Every member has a row in the assembly project's `registry/schemas.tsv`, and that project's `make db-init` grants the member's role to `shell_go_infra` and refuses a member without one.
+3. A changed member list or member version means a new `metadata.version` for the shell, a rebuild and a release from this repository; `brickkit up` stops a stale image with `IMAGE_STALE`.
 4. Code here only registers members: no route, handler, query or call between members.
 5. Run `brickkit lint --strict` and the build in Build and test before committing.
 

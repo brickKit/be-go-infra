@@ -6,7 +6,7 @@
 
 ## 在项目里使用
 
-这个外壳是所在项目的代码。`shell.members` 里至少有一个成员之后：
+这个外壳是独立仓库，项目把它作为安装源引入（be-assembly-standard 以 Git 子模块的形式把它检出在 `shell/be/go-infra`）。`shell.members` 里至少有一个成员之后：
 
 ```bash
 brickkit add be/go-infra --yes     # 带入它编译进的成员，嵌在外壳下面
@@ -26,4 +26,4 @@ brickkit up
 
 ## 开发
 
-在项目根目录（`brickkit.yaml` 所在处）操作；先读 [AGENTS.zh.md](AGENTS.zh.md)。
+在本仓库里修改、从这里发布；在项目根目录（`brickkit.yaml` 所在处）构建和运行。先读 [AGENTS.zh.md](AGENTS.zh.md)。
