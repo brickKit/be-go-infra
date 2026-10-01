@@ -46,7 +46,7 @@ The tag is the bare version. There is no `v` tag: nothing imports the shell as a
 
 ## Design decisions
 
-- The shell is a repository of its own, so every assembly project that merges these components builds the same image from the same member list; be-assembly-standard checks it out as a Git submodule at `shell/be/go-infra` (its decision 0022). Which of the compiled-in members a deployment hosts is still chosen in that project's deploy file.
+- The shell is a repository of its own, so every assembly project that merges these components builds the same image from the same member list; be-assembly-standard checks it out as a Git submodule at `shell/be/go-infra` (its decision 0008). Which of the compiled-in members a deployment hosts is still chosen in that project's deploy file.
 - One shell is one image with one member list: `shell.members` names the exact member versions compiled in, and the Registry in `main.go` lists exactly those members.
 - All launcher logic lives in the SDK (`shell.Main`), so this directory stays a list of members and cannot grow logic of its own.
 - The shell never runs migrations: brickKit runs each member's migration from the member's own image before the shell starts.
