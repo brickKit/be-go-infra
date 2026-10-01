@@ -26,7 +26,7 @@
 ```bash
 go build -o /dev/null ./...        # 编译外壳和每个已登记的成员
 brickkit build be/go-infra           # 镜像，tag 为 metadata.version；在项目根目录跑，外壳须已在它的 brickkit.yaml 里
-brickkit lint --strict             # 清单和文档
+make docs-check ID=be/go-infra     # 清单和文档（在项目根跑；项目级 lint 限定不到单个组件）
 ```
 
 成功的样子：`go build` 无输出；`brickkit build` 在镜像里记下编译进去的成员版本，`brickkit up` 会核对；容器变为 healthy，端口 8224 上 `GET /healthz` 返回 200。
@@ -66,7 +66,7 @@ tag 就是裸版本号。不打 `v` tag：没有人把外壳当 Go 模块 import
 2. 每个成员在装配项目的 `registry/schemas.tsv` 里都有一行；该项目的 `make db-init` 把它的角色授给 `shell_go_infra`，没有对应行的成员会被拒绝。
 3. 成员清单或成员版本变了，外壳就要新的 `metadata.version`、重新构建并从本仓库发布；`brickkit up` 会以 `IMAGE_STALE` 拦下过期镜像。
 4. 这里的代码只登记成员：不写路由、处理函数、查询，也不写成员之间的调用。
-5. 提交前跑 `brickkit lint --strict` 和构建与测试一节里的构建。
+5. 提交前在项目根跑 `make docs-check ID=be/go-infra`（直接 `brickkit lint` 会 lint 整个项目）和构建与测试一节里的构建。
 
 ## BrickKit
 

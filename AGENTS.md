@@ -26,7 +26,7 @@ The AI guide to developing this shell. What it hosts and how to deploy it: `BRIC
 ```bash
 go build -o /dev/null ./...        # compiles the shell and every registered member
 brickkit build be/go-infra           # the image, tagged with metadata.version; run from the project root, with the shell in its brickkit.yaml
-brickkit lint --strict             # manifest and documents
+make docs-check ID=be/go-infra     # manifest and documents (project root; a project-level lint cannot be scoped to one component)
 ```
 
 Success: `go build` prints nothing; `brickkit build` records in the image the member versions it compiles in, which `brickkit up` checks; the container turns healthy and `GET /healthz` on port 8224 answers 200.
@@ -66,7 +66,7 @@ The tag is the bare version. There is no `v` tag: nothing imports the shell as a
 2. Every member has a row in the assembly project's `registry/schemas.tsv`, and that project's `make db-init` grants the member's role to `shell_go_infra` and refuses a member without one.
 3. A changed member list or member version means a new `metadata.version` for the shell, a rebuild and a release from this repository; `brickkit up` stops a stale image with `IMAGE_STALE`.
 4. Code here only registers members: no route, handler, query or call between members.
-5. Run `brickkit lint --strict` and the build in Build and test before committing.
+5. Run `make docs-check ID=be/go-infra` (from the project root; a plain `brickkit lint` there lints the whole project) and the build in Build and test before committing.
 
 <!-- brickkit:managed:begin lang=en -->
 <!-- maintained by brickkit (init, add, remove, upgrade, skills update): edits between these markers are overwritten -->
