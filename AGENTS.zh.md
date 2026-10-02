@@ -26,7 +26,7 @@
 ```bash
 go build -o /dev/null ./...        # 编译外壳和每个已登记的成员
 brickkit build be/go-infra           # 镜像，tag 为 metadata.version；在项目根目录跑，外壳须已在它的 brickkit.yaml 里
-make docs-check ID=be/go-infra     # 清单和文档（在项目根跑；项目级 lint 限定不到单个组件）
+make docs-check ID=be/go-infra # 清单和文档
 ```
 
 成功的样子：`go build` 无输出；`brickkit build` 在镜像里记下编译进去的成员版本，`brickkit up` 会核对；容器变为 healthy，端口 8224 上 `GET /healthz` 返回 200。
@@ -66,15 +66,4 @@ tag 就是裸版本号。不打 `v` tag：没有人把外壳当 Go 模块 import
 2. 每个成员在装配项目的 `registry/schemas.tsv` 里都有一行；该项目的 `make db-init` 把它的角色授给 `shell_go_infra`，没有对应行的成员会被拒绝。
 3. 成员清单或成员版本变了，外壳就要新的 `metadata.version`、重新构建并从本仓库发布；`brickkit up` 会以 `IMAGE_STALE` 拦下过期镜像。
 4. 这里的代码只登记成员：不写路由、处理函数、查询，也不写成员之间的调用。
-5. 提交前在项目根跑 `make docs-check ID=be/go-infra`（直接 `brickkit lint` 会 lint 整个项目）和构建与测试一节里的构建。
-
-## BrickKit
-
-这是一个 BrickKit 组件：平台只读 `component.yaml`。它依赖的规则：
-
-- `configSchema` 的键就是代码读取的环境变量名。绝不用保留名：`COMPONENT_ID`、`COMPONENT_VERSION`、`PORT`、`BRICKKIT_SERVED_MEMBERS`、`BRICKKIT_SERVED_MEMBERS_CONFIG`，以及任何 `*_ENDPOINT`。
-- 依赖是精确版本。依赖的地址以 `<ID>_ENDPOINT` 送达；缺席的可选依赖根本没有这个变量，读取时要有兜底。
-- `/healthz` 只检查本进程，绝不检查依赖。迁移命令从同一镜像运行，遇到不认识的参数必须失败。
-- `BRICKKIT.md` 会随组件到达每个使用它的项目，并在那里脱离仓库被阅读：与代码保持一致，不用相对链接。
-- 发布：升 `metadata.version`，提交，推送，`brickkit release`。`brickkit lint` 检查清单和这些文档。
-- 完整规则在 `brickkit-component` 技能里（安装了技能的项目或仓库根目录下的 `.claude/skills/brickkit-component/SKILL.md`；`brickkit skills update` 安装它）；参数问 `brickkit <command> --help`。
+5. 提交前在项目根跑 `make docs-check ID=be/go-infra`和构建与测试一节里的构建。
