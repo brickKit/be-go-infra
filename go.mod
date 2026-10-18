@@ -3,8 +3,8 @@ module github.com/brickKit/be-go-infra
 go 1.26.0
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.3
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.5
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.4
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.7
 )
 
 require (
@@ -23,7 +23,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.114.3 // indirect
 	github.com/aws/smithy-go v1.28.5 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.4 // indirect
+	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.6 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
 	github.com/bytedance/sonic v1.15.0 // indirect
 	github.com/bytedance/sonic/loader v0.5.0 // indirect
