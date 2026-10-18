@@ -1,0 +1,61 @@
+apiVersion: brickkit/v1
+kind: Component
+
+metadata:
+  id: be/go-infra
+  name: Go infra shell
+  version: 3.0.0
+  description: "The infrastructure shell: one Go process hosting the members compiled in (be-sdk-go's shell launcher)"
+  repository: https://github.com/brickKit/be-go-infra
+
+shell:
+  members:
+    - test/probe-go@3.1.0
+    - test/probe-go2@3.1.0
+    - test/probe-go3@3.1.0
+    - test/probe-go4@3.1.0
+
+deployment:
+  type: container
+  build:
+    context: .
+    dockerfile: Dockerfile
+  port: 8224
+
+healthCheck:
+  type: http
+  path: /healthz
+
+readinessCheck:
+  type: http
+  path: /readyz
+
+local:
+  runCommand: [go, run, .]
+
+configSchema:
+  type: object
+  properties:
+    PG_SHELL_USER:
+      type: string
+      description: "the shell's login role (shell_go_infra): it holds the members' runtime roles WITH INHERIT FALSE and switches per transaction; required when a member owns a database"
+    PG_SHELL_PASSWORD:
+      type: string
+      secret: true
+      description: "the password of PG_SHELL_USER"
+    SHELL_ALLOW_REPLACE:
+      type: boolean
+      description: "SDK default false; true lets a development build with replace directives start (with a warning), never in a release build"
+    LOG_LEVEL:
+      type: string
+      enum: [debug, info, warn, error]
+      description: "SDK default info: the shell's own lines; members have their own"
+    OTEL_URL:
+      type: string
+      description: "the shell's own tracing exporter; members have their own"
+    STOP_DRAIN_DELAY:
+      type: string
+      description: "a duration (e.g. 2s); SDK default 2s; never shorter than any member's"
+    STOP_TIMEOUT:
+      type: string
+      description: "a duration; SDK default 30s; never shorter than any member's"
