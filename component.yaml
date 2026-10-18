@@ -4,16 +4,16 @@ kind: Component
 metadata:
   id: be/go-infra
   name: Go infra shell
-  version: 3.0.5
+  version: 3.0.6
   description: "The infrastructure shell: one Go process hosting the members compiled in (be-sdk-go's shell launcher)"
   repository: https://github.com/brickKit/be-go-infra
 
 shell:
   members:
-    - test/probe-go@3.2.5
-    - test/probe-go2@3.2.5
-    - test/probe-go3@3.2.5
-    - test/probe-go4@3.2.5
+    - test/probe-go@3.2.6
+    - test/probe-go2@3.2.6
+    - test/probe-go3@3.2.6
+    - test/probe-go4@3.2.6
 
 deployment:
   type: container
