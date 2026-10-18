@@ -9,7 +9,7 @@ import "github.com/brickKit/be-sdk-go/v3/shell"
 // ID and Version are the shell's own identity; component.yaml says the same.
 const (
 	ID      = "be/go-infra"
-	Version = "3.0.6"
+	Version = "3.0.7"
 )
 
 func main() { shell.Main(shell.Identity{ID: ID, Version: Version}, members()...) }
