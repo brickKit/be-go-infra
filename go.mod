@@ -3,8 +3,8 @@ module github.com/brickKit/be-go-infra
 go 1.26.0
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.0
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.3
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.1
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.4
 )
 
 require (
