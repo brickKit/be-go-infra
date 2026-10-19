@@ -6,10 +6,14 @@ toolchain go1.27.2
 
 require (
 	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.19
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.23
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.24
 	github.com/brickKit/infra-audit/v3 v3.0.1
 	github.com/brickKit/infra-authz/v3 v3.0.2
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.1
+	github.com/brickKit/mdm-currency/v3 v3.0.1
+	github.com/brickKit/mdm-org/v3 v3.0.1
+	github.com/brickKit/mdm-partner/v3 v3.0.0
+	github.com/brickKit/mdm-product/v3 v3.0.0
 )
 
 require (
@@ -19,6 +23,10 @@ require (
 	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.19 // indirect
 	github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.1 // indirect
 	github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.1 // indirect
+	github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 // indirect
+	github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.1 // indirect
+	github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1 // indirect
+	github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
 	github.com/bytedance/sonic v1.15.0 // indirect
 	github.com/bytedance/sonic/loader v0.5.0 // indirect
@@ -76,6 +84,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.47.0 // indirect
 	go.opentelemetry.io/otel/trace v1.47.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.11.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/arch v0.22.0 // indirect
 	golang.org/x/crypto v0.57.0 // indirect
 	golang.org/x/net v0.59.0 // indirect
