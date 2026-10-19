@@ -24,4 +24,4 @@
 
 ## 外壳声明
 
-编进来的成员：`test/probe-go@3.2.12`、`test/probe-go2@3.2.12`、`test/probe-go3@3.2.12`、`test/probe-go4@3.2.12`。
+编进来的成员：`test/probe-go@3.2.13`、`test/probe-go2@3.2.13`、`test/probe-go3@3.2.13`、`test/probe-go4@3.2.13`。
