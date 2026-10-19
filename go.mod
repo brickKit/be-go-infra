@@ -5,15 +5,15 @@ go 1.27.0
 toolchain go1.27.2
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.9
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.12
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.10
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.13
 )
 
 require (
 	github.com/MicahParks/jwkset v0.11.3 // indirect
 	github.com/MicahParks/keyfunc/v3 v3.8.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.10 // indirect
+	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.11 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
 	github.com/bytedance/sonic v1.15.0 // indirect
 	github.com/bytedance/sonic/loader v0.5.0 // indirect
