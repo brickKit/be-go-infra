@@ -5,8 +5,8 @@ go 1.27.0
 toolchain go1.27.2
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.18
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.22
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.19
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.23
 	github.com/brickKit/infra-audit/v3 v3.0.1
 	github.com/brickKit/infra-authz/v3 v3.0.2
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.1
@@ -16,7 +16,7 @@ require (
 	github.com/MicahParks/jwkset v0.11.3 // indirect
 	github.com/MicahParks/keyfunc/v3 v3.8.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.18 // indirect
+	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.19 // indirect
 	github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.1 // indirect
 	github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.1 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
