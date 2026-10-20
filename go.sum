@@ -58,12 +58,12 @@ github.com/brickKit/mdm-org/v3 v3.0.2 h1:jVDKH53ShKQbtyZgQI6X7cw8dakB1CDnmynlVaN
 github.com/brickKit/mdm-org/v3 v3.0.2/go.mod h1:N2FHBhIpUl8Nk8CvOfwdl9LcyovO2ojj3IIrshI4vqI=
 github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1 h1:lZr35N7CfUBZtATMC3GUBQ6L1Vqn66hQeZNTAIxltvk=
 github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1/go.mod h1:z8eY2OTN5tv+c/AaATSroCs2OJsYX3lbb9SVjVp8jIc=
-github.com/brickKit/mdm-partner/v3 v3.0.2 h1:plYrm/2b4WTo+GR5Zjw+xdxeXKiSPtM+Rec9IawIR8I=
-github.com/brickKit/mdm-partner/v3 v3.0.2/go.mod h1:XYGHcm8JtIlgGHRiBcwaUNSVKJUzbkimKjsKXHFqiKQ=
+github.com/brickKit/mdm-partner/v3 v3.0.3 h1:Qvfyv5eipv1EQEcU+rR8frCE66n+53roaOPPbDKS0bo=
+github.com/brickKit/mdm-partner/v3 v3.0.3/go.mod h1:XYGHcm8JtIlgGHRiBcwaUNSVKJUzbkimKjsKXHFqiKQ=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1 h1:gfXBy30QiD8giFCM8CDy+t6PNNC9ces8NJfh+nCIMpo=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1/go.mod h1:tYcKmGEsI+8/RxvSC+EnDMn3Qxzk3NQhm7xYf8qm7+g=
-github.com/brickKit/mdm-product/v3 v3.0.2 h1:8omAi5PB9cre+4oaeGuUgvZIIAurL06GPz/CfeN7oYg=
-github.com/brickKit/mdm-product/v3 v3.0.2/go.mod h1:r8RaiaM1Xaoddm0Q2ObUiR9KVK7+TnSU8iwNDsWc7kM=
+github.com/brickKit/mdm-product/v3 v3.0.3 h1:NfaYHPwmEUFTZxN4R64aE+HJ9OHaIQOcG5z9GPnWX/k=
+github.com/brickKit/mdm-product/v3 v3.0.3/go.mod h1:r8RaiaM1Xaoddm0Q2ObUiR9KVK7+TnSU8iwNDsWc7kM=
 github.com/bytedance/gopkg v0.1.3 h1:TPBSwH8RsouGCBcMBktLt1AymVo2TVsBVCY4b6TnZ/M=
 github.com/bytedance/gopkg v0.1.3/go.mod h1:576VvJ+eJgyCzdjS+c4+77QF3p7ubbtiKARP3TxducM=
 github.com/bytedance/sonic v1.15.0 h1:/PXeWFaR5ElNcVE84U0dOHjiMHQOwNIx3K4ymzh/uSE=

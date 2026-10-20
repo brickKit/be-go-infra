@@ -12,8 +12,8 @@ require (
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.2
 	github.com/brickKit/mdm-currency/v3 v3.0.3
 	github.com/brickKit/mdm-org/v3 v3.0.2
-	github.com/brickKit/mdm-partner/v3 v3.0.2
-	github.com/brickKit/mdm-product/v3 v3.0.2
+	github.com/brickKit/mdm-partner/v3 v3.0.3
+	github.com/brickKit/mdm-product/v3 v3.0.3
 )
 
 require (
