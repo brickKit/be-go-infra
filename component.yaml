@@ -4,7 +4,7 @@ kind: Component
 metadata:
   id: be/go-infra
   name: Go infra shell
-  version: 3.0.22
+  version: 3.0.23
   description: "The infrastructure shell: one Go process hosting the members compiled in (be-sdk-go's shell launcher)"
   repository: https://github.com/brickKit/be-go-infra
 
@@ -17,10 +17,10 @@ shell:
     - infra/iam-casdoor@3.0.2
     - infra/authz@3.0.3
     - infra/audit@3.0.2
-    - mdm/org@3.0.2
-    - mdm/currency@3.0.3
-    - mdm/partner@3.0.3
-    - mdm/product@3.0.3
+    - mdm/org@3.0.3
+    - mdm/currency@3.0.4
+    - mdm/partner@3.0.4
+    - mdm/product@3.0.4
 
 deployment:
   type: container
