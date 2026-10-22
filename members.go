@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/brickKit/be-acceptance/probes/go/v3/probe"
 	"github.com/brickKit/be-sdk-go/v3/component"
-	audit "github.com/brickKit/infra-audit/v3/member"
-	authz "github.com/brickKit/infra-authz/v3/member"
+	"github.com/brickKit/infra-audit/v3/audit"
+	"github.com/brickKit/infra-authz/v3/authz"
 	"github.com/brickKit/infra-iam-casdoor/v3/iam"
 	"github.com/brickKit/mdm-currency/v3/currency"
 	"github.com/brickKit/mdm-org/v3/org"
