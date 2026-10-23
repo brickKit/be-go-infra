@@ -9,7 +9,7 @@ require (
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.27
 	github.com/brickKit/infra-audit/v3 v3.0.3
 	github.com/brickKit/infra-authz/v3 v3.0.5
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.4
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.5
 	github.com/brickKit/mdm-currency/v3 v3.0.5
 	github.com/brickKit/mdm-org/v3 v3.0.4
 	github.com/brickKit/mdm-partner/v3 v3.0.5

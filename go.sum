@@ -46,8 +46,8 @@ github.com/brickKit/infra-audit/v3 v3.0.3 h1:u1HBdxjGsL1s6clmzs/rD8iMk0cCrQ+M44U
 github.com/brickKit/infra-audit/v3 v3.0.3/go.mod h1:3Z++RVb3j2gq8MIWhxnRR8MBQ09meZCKnGbhYUZ2Lqg=
 github.com/brickKit/infra-authz/v3 v3.0.5 h1:EGW2HhqJ4cX5u6IRapXbFKYZ4zLmeDksIKkW2CgQqmo=
 github.com/brickKit/infra-authz/v3 v3.0.5/go.mod h1:H20RpNxy/q6md120N/RZ68nk5QGaITUYyVQ6LrGK018=
-github.com/brickKit/infra-iam-casdoor/v3 v3.0.4 h1:P39WTrSQSsFDoQZN30/g565VUUNYtg3UFp8s3nM4FzE=
-github.com/brickKit/infra-iam-casdoor/v3 v3.0.4/go.mod h1:lOdfNAvVqrnnjIVaapLoDFolYnAdkF4Lvx3as+YYqnM=
+github.com/brickKit/infra-iam-casdoor/v3 v3.0.5 h1:2icJOOKZHuj+8gtTEqscLGROYwDMY2rmPWrIT3GmQl8=
+github.com/brickKit/infra-iam-casdoor/v3 v3.0.5/go.mod h1:lOdfNAvVqrnnjIVaapLoDFolYnAdkF4Lvx3as+YYqnM=
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 h1:tP73XBUVAT/na/6iE4OjwsWRFGPo9jgLbM30wVBYuCE=
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1/go.mod h1:oMF79YavV/P2KWI4/tDd1TYteCwub000Ru3zRGZoRc4=
 github.com/brickKit/mdm-currency/v3 v3.0.5 h1:/RQ0ylkZz23q3btdordWVm9ya3EGu2dUgn0IixzxSeo=
