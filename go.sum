@@ -36,6 +36,8 @@ github.com/brickKit/be-acceptance/probes/go/v3 v3.2.19 h1:YfqmqAUdanDVMpmNC6YBvj
 github.com/brickKit/be-acceptance/probes/go/v3 v3.2.19/go.mod h1:f5zOIH1y9SG7NAQPV1TbXFJAzG+s4UIN9Lgz2aOC8mI=
 github.com/brickKit/be-acceptance/probes/go/v3 v3.2.20 h1:TzC3jKm1VCqsqykittOUAgS4O1O4q4V7uUWPKWpF+/A=
 github.com/brickKit/be-acceptance/probes/go/v3 v3.2.20/go.mod h1:f5zOIH1y9SG7NAQPV1TbXFJAzG+s4UIN9Lgz2aOC8mI=
+github.com/brickKit/be-acceptance/probes/go/v3 v3.2.21 h1:x4HEKD/h/GbcJ1oQueQr6P3nfhvm/kZcVJ+pjps4qg4=
+github.com/brickKit/be-acceptance/probes/go/v3 v3.2.21/go.mod h1:f5zOIH1y9SG7NAQPV1TbXFJAzG+s4UIN9Lgz2aOC8mI=
 github.com/brickKit/be-protocol/v3 v3.0.0-alpha.24 h1:ULYsDvQRObT3KOlOgPS5pktAv7MaIIm7LN1IxQnokik=
 github.com/brickKit/be-protocol/v3 v3.0.0-alpha.24/go.mod h1:eqJQ6fzJYtWspmJADXfVuXlY4++EQbAyrZWeABZH7SA=
 github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.35 h1:6KER1tu12wnyOjf3ws8vTZDLzRg8bAyImiB+z1QXjYI=
