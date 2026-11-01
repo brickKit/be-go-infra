@@ -24,4 +24,4 @@
 
 ## 外壳声明
 
-编进来的成员：`test/probe-go@3.2.27`、`test/probe-go2@3.2.27`、`test/probe-go3@3.2.27`、`test/probe-go4@3.2.27`；第 5 步的安全成员 `infra/iam-casdoor@3.0.13`、`infra/authz@3.0.14`、`infra/audit@3.0.11`；第 6 步的主数据 `mdm/org@3.0.12`、`mdm/currency@3.0.13`、`mdm/partner@3.0.15`、`mdm/product@3.0.15`。
+编进来的成员：`test/probe-go@3.2.28`、`test/probe-go2@3.2.28`、`test/probe-go3@3.2.28`、`test/probe-go4@3.2.28`；第 5 步的安全成员 `infra/iam-casdoor@3.0.15`、`infra/authz@3.0.15`、`infra/audit@3.0.12`；第 6 步的主数据 `mdm/org@3.0.13`、`mdm/currency@3.0.14`、`mdm/partner@3.0.16`、`mdm/product@3.0.16`。
