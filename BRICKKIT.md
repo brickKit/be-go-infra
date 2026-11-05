@@ -24,4 +24,4 @@
 
 ## 外壳声明
 
-编进来的成员：`test/probe-go@3.2.28`、`test/probe-go2@3.2.28`、`test/probe-go3@3.2.28`、`test/probe-go4@3.2.28`；第 5 步的安全成员 `infra/iam-casdoor@3.0.15`、`infra/authz@3.0.15`、`infra/audit@3.0.12`；第 6 步的主数据 `mdm/org@3.0.13`、`mdm/currency@3.0.14`、`mdm/partner@3.0.16`、`mdm/product@3.0.16`。
+编进来的成员：安全成员（身份、授权、审计）、主数据（组织、币种、伙伴、产品）与四个探针；成员与确切版本只写在 `component.yaml` 的 `shell.members`（与 `go.mod` 一致，装配项目的 pin-check 核对）。
