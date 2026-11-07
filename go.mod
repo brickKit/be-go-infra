@@ -8,7 +8,7 @@ require (
 	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.49
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.117
 	github.com/brickKit/infra-audit/v3 v3.0.36
-	github.com/brickKit/infra-authz/v3 v3.0.43
+	github.com/brickKit/infra-authz/v3 v3.0.44
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.41
 	github.com/brickKit/mdm-currency/v3 v3.0.31
 	github.com/brickKit/mdm-org/v3 v3.0.32
