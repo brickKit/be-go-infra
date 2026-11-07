@@ -50,8 +50,8 @@ github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.5 h1:ORPHZposF3w23ee95s
 github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.5/go.mod h1:21N0lZKoL1STxtsx5Yi9Wh8cJ32gtsQuVF52oxMWaps=
 github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 h1:hUS/itAy4TthX8s2DhVzdLQY1lGoPEpDknzzIJPgNi0=
 github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3/go.mod h1:lNvJIGkwHYJd9bv/ngYiKal65x7/M7McyHOzCIKyTSQ=
-github.com/brickKit/infra-audit/v3 v3.0.31 h1:75S0mMQHcxr7PEILouHprrEqL6inzTsrMtXbqfLctLQ=
-github.com/brickKit/infra-audit/v3 v3.0.31/go.mod h1:FIf4QpgcngnToUClHeL5UHu15MOBJc9PfpfS0UTGfs0=
+github.com/brickKit/infra-audit/v3 v3.0.32 h1:VTlZlzxGB/5NoXepi4E0TpAz9rdbhCVvrsdXJ3TiDiQ=
+github.com/brickKit/infra-audit/v3 v3.0.32/go.mod h1:FIf4QpgcngnToUClHeL5UHu15MOBJc9PfpfS0UTGfs0=
 github.com/brickKit/infra-authz/v3 v3.0.40 h1:fQbZSMwnO87UyGsROgmE96nrBVDhIgDeqA3PurQlL24=
 github.com/brickKit/infra-authz/v3 v3.0.40/go.mod h1:NBjnKR3H6jELb6PIzHCckMZjKtcWYybhlhgrv5iUlRM=
 github.com/brickKit/infra-iam-casdoor/v3 v3.0.37 h1://wWLcm8itSsKD1gccZM+Jvlue5N39v/MLHN5aEkqHY=

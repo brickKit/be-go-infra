@@ -7,7 +7,7 @@ toolchain go1.27.2
 require (
 	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.47
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.115
-	github.com/brickKit/infra-audit/v3 v3.0.31
+	github.com/brickKit/infra-audit/v3 v3.0.32
 	github.com/brickKit/infra-authz/v3 v3.0.40
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.37
 	github.com/brickKit/mdm-currency/v3 v3.0.27
