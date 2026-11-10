@@ -11,9 +11,9 @@ require (
 	github.com/brickKit/infra-authz/v3 v3.0.45
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.42
 	github.com/brickKit/mdm-currency/v3 v3.0.32
-	github.com/brickKit/mdm-org/v3 v3.0.33
-	github.com/brickKit/mdm-partner/v3 v3.0.36
-	github.com/brickKit/mdm-product/v3 v3.0.35
+	github.com/brickKit/mdm-org/v3 v3.0.34
+	github.com/brickKit/mdm-partner/v3 v3.0.37
+	github.com/brickKit/mdm-product/v3 v3.0.36
 )
 
 require (
@@ -25,7 +25,7 @@ require (
 	github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.5 // indirect
 	github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 // indirect
 	github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 // indirect
-	github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.1 // indirect
+	github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.3 // indirect
 	github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1 // indirect
 	github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
