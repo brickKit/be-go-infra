@@ -44,10 +44,10 @@ github.com/brickKit/be-acceptance/probes/go/v3 v3.2.51 h1:E/vjBx+kyDBp9z05P78fdP
 github.com/brickKit/be-acceptance/probes/go/v3 v3.2.51/go.mod h1:7JE2g3EUwLHFC9C5ESyQqXdT7zYgWEpIoQNhbwkfsoM=
 github.com/brickKit/be-protocol/v3 v3.0.0-alpha.117 h1:NycAyBSjQpKV67h9VqUFnM8yV78q3cQhBE4DVOTJmMg=
 github.com/brickKit/be-protocol/v3 v3.0.0-alpha.117/go.mod h1:eqJQ6fzJYtWspmJADXfVuXlY4++EQbAyrZWeABZH7SA=
-github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.119 h1:NpO1QkO8j8GQxCYlKvAeFCpX+y0qtEb+N6VQR1oyVe8=
-github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.119/go.mod h1:tTzcK3mdmXWDjlB4kXlHggKjVNdQchDqZ2GkS8iEZ8w=
-github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.5 h1:ORPHZposF3w23ee95sRceknFfXCIVxPd99SrDiahOq4=
-github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.5/go.mod h1:21N0lZKoL1STxtsx5Yi9Wh8cJ32gtsQuVF52oxMWaps=
+github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.121 h1:bI8ZLqaOo2hFJ6YMLhOgE/iIGgAjShjbPogqYM1d5V0=
+github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.121/go.mod h1:6behnQqytEEyQQCVsVSL2CVhENpeHB+jQN45dpKttfI=
+github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.6 h1:9Ju2Lp3HXFCc3FSF5oVioGx0DPowi63gVXH5MeJnA8k=
+github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.6/go.mod h1:21N0lZKoL1STxtsx5Yi9Wh8cJ32gtsQuVF52oxMWaps=
 github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 h1:hUS/itAy4TthX8s2DhVzdLQY1lGoPEpDknzzIJPgNi0=
 github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3/go.mod h1:lNvJIGkwHYJd9bv/ngYiKal65x7/M7McyHOzCIKyTSQ=
 github.com/brickKit/infra-audit/v3 v3.0.37 h1:E1PBRuWBiJgw5h0Vvu4qHeF6OveG+knUP0nURe5YMwA=
@@ -60,6 +60,8 @@ github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 h1:tP73XBUVAT/na/6iE
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1/go.mod h1:oMF79YavV/P2KWI4/tDd1TYteCwub000Ru3zRGZoRc4=
 github.com/brickKit/mdm-currency/v3 v3.0.32 h1:iQzOAPa0w764Da0VAliAFfkw+0yFBW8jHIlihyT9qyA=
 github.com/brickKit/mdm-currency/v3 v3.0.32/go.mod h1:i4akAMO5Zcu0ZQGyAh4zrHOmawhK9e3IhJmZf7pXMbc=
+github.com/brickKit/mdm-employee/v3 v3.0.0-20261110165709-2fb450fde8cf h1:MjTpTn4b0BwFX7YUeG1ypjEyba+plZJfWQmDcU7odAM=
+github.com/brickKit/mdm-employee/v3 v3.0.0-20261110165709-2fb450fde8cf/go.mod h1:ad3kwvguBWSUZH4fxOua62jV/MyVMScZMALMl1RMzBw=
 github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.3 h1:37nVtAxtWLCY75DkpJb1Q2bVF9MAV67cMkyrI02F/y4=
 github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.3/go.mod h1:AUQY6uOj5te0c0rS/uqg3NEt9nvFXAJXv1PFI/nmvrQ=
 github.com/brickKit/mdm-org/v3 v3.0.34 h1:FyhAgz+JhUtuV8noojtBa6reGBsAnOjSuzM+wKwUrXY=

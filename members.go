@@ -7,6 +7,7 @@ import (
 	"github.com/brickKit/infra-authz/v3/authz"
 	"github.com/brickKit/infra-iam-casdoor/v3/iam"
 	"github.com/brickKit/mdm-currency/v3/currency"
+	"github.com/brickKit/mdm-employee/v3/employee"
 	"github.com/brickKit/mdm-org/v3/org"
 	"github.com/brickKit/mdm-partner/v3/partner"
 	"github.com/brickKit/mdm-product/v3/product"
@@ -17,6 +18,6 @@ import (
 func members() []component.Definition {
 	// the experiment's probes, step 5's security members and step 6's master data; the business members of step 7
 	// go to be-go-core
-	return append(probe.Definitions(), iam.Definition(), authz.Definition(), audit.Definition(), org.Definition(),
+	return append(probe.Definitions(), iam.Definition(), authz.Definition(), audit.Definition(), org.Definition(), employee.Definition(),
 		currency.Definition(), partner.Definition(), product.Definition())
 }
