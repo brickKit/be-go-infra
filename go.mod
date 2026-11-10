@@ -9,11 +9,11 @@ require (
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.121
 	github.com/brickKit/infra-audit/v3 v3.0.38
 	github.com/brickKit/infra-authz/v3 v3.0.48
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.43
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.44
 	github.com/brickKit/mdm-currency/v3 v3.0.33
 	github.com/brickKit/mdm-employee/v3 v3.0.3
 	github.com/brickKit/mdm-org/v3 v3.0.35
-	github.com/brickKit/mdm-partner/v3 v3.0.39
+	github.com/brickKit/mdm-partner/v3 v3.0.40
 	github.com/brickKit/mdm-product/v3 v3.0.37
 )
 
