@@ -5,16 +5,16 @@ go 1.27.0
 toolchain go1.27.2
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.51
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.52
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.121
-	github.com/brickKit/infra-audit/v3 v3.0.37
-	github.com/brickKit/infra-authz/v3 v3.0.45
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.42
-	github.com/brickKit/mdm-currency/v3 v3.0.32
-	github.com/brickKit/mdm-employee/v3 v3.0.0-20261110165709-2fb450fde8cf
-	github.com/brickKit/mdm-org/v3 v3.0.34
-	github.com/brickKit/mdm-partner/v3 v3.0.37
-	github.com/brickKit/mdm-product/v3 v3.0.36
+	github.com/brickKit/infra-audit/v3 v3.0.38
+	github.com/brickKit/infra-authz/v3 v3.0.47
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.43
+	github.com/brickKit/mdm-currency/v3 v3.0.33
+	github.com/brickKit/mdm-employee/v3 v3.0.2
+	github.com/brickKit/mdm-org/v3 v3.0.35
+	github.com/brickKit/mdm-partner/v3 v3.0.38
+	github.com/brickKit/mdm-product/v3 v3.0.37
 )
 
 require (
