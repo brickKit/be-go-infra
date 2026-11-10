@@ -14,7 +14,7 @@ require (
 	github.com/brickKit/mdm-employee/v3 v3.0.3
 	github.com/brickKit/mdm-org/v3 v3.0.35
 	github.com/brickKit/mdm-partner/v3 v3.0.40
-	github.com/brickKit/mdm-product/v3 v3.0.37
+	github.com/brickKit/mdm-product/v3 v3.0.38
 )
 
 require (

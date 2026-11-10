@@ -72,8 +72,8 @@ github.com/brickKit/mdm-partner/v3 v3.0.40 h1:1328Q0yYYSvPQRkZm3LMUa/iPdQTtMKPM4
 github.com/brickKit/mdm-partner/v3 v3.0.40/go.mod h1:rfaqmLlYpL9RILbK2hEvg8dPE9m71BJxKpsdSda5otQ=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1 h1:gfXBy30QiD8giFCM8CDy+t6PNNC9ces8NJfh+nCIMpo=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1/go.mod h1:tYcKmGEsI+8/RxvSC+EnDMn3Qxzk3NQhm7xYf8qm7+g=
-github.com/brickKit/mdm-product/v3 v3.0.37 h1:nAX3oA/Av0sYXsDC8zpDYdPeENVgRc54c+uhuirjG/E=
-github.com/brickKit/mdm-product/v3 v3.0.37/go.mod h1:bR+3zaR6hy3UzI6+1iGwkVydFAMrUDBiHwVNDE8y8xY=
+github.com/brickKit/mdm-product/v3 v3.0.38 h1:/X/i6w+H93EVadA4S6QhVbHVG3HAXp92ab4xObqZ/l0=
+github.com/brickKit/mdm-product/v3 v3.0.38/go.mod h1:bR+3zaR6hy3UzI6+1iGwkVydFAMrUDBiHwVNDE8y8xY=
 github.com/bytedance/gopkg v0.1.3 h1:TPBSwH8RsouGCBcMBktLt1AymVo2TVsBVCY4b6TnZ/M=
 github.com/bytedance/gopkg v0.1.3/go.mod h1:576VvJ+eJgyCzdjS+c4+77QF3p7ubbtiKARP3TxducM=
 github.com/bytedance/sonic v1.15.0 h1:/PXeWFaR5ElNcVE84U0dOHjiMHQOwNIx3K4ymzh/uSE=
