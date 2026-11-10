@@ -68,8 +68,8 @@ github.com/brickKit/mdm-org/v3 v3.0.35 h1:qCPBkf4RBcFKHGjhUgq7MYiOGyhYmH1u6sPp98
 github.com/brickKit/mdm-org/v3 v3.0.35/go.mod h1:yon0dRsDWfTN9BxAwUMffrfi4msNj0b25QJUzVaOGMI=
 github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1 h1:lZr35N7CfUBZtATMC3GUBQ6L1Vqn66hQeZNTAIxltvk=
 github.com/brickKit/mdm-partner/contract/v3 v3.0.0-alpha.1/go.mod h1:z8eY2OTN5tv+c/AaATSroCs2OJsYX3lbb9SVjVp8jIc=
-github.com/brickKit/mdm-partner/v3 v3.0.38 h1:yDEMYuK+jgEZhsrkPw0efe1Pk2Y5U+n3CpUmQfbkM9w=
-github.com/brickKit/mdm-partner/v3 v3.0.38/go.mod h1:rfaqmLlYpL9RILbK2hEvg8dPE9m71BJxKpsdSda5otQ=
+github.com/brickKit/mdm-partner/v3 v3.0.39 h1:qFY0vW0IVzn7RlYP+u58xASHOHZ2/v0g6PO5rKvD6mU=
+github.com/brickKit/mdm-partner/v3 v3.0.39/go.mod h1:rfaqmLlYpL9RILbK2hEvg8dPE9m71BJxKpsdSda5otQ=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1 h1:gfXBy30QiD8giFCM8CDy+t6PNNC9ces8NJfh+nCIMpo=
 github.com/brickKit/mdm-product/contract/v3 v3.0.0-alpha.1/go.mod h1:tYcKmGEsI+8/RxvSC+EnDMn3Qxzk3NQhm7xYf8qm7+g=
 github.com/brickKit/mdm-product/v3 v3.0.37 h1:nAX3oA/Av0sYXsDC8zpDYdPeENVgRc54c+uhuirjG/E=
