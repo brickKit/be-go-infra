@@ -60,8 +60,8 @@ github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 h1:tP73XBUVAT/na/6iE
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1/go.mod h1:oMF79YavV/P2KWI4/tDd1TYteCwub000Ru3zRGZoRc4=
 github.com/brickKit/mdm-currency/v3 v3.0.33 h1:wUslAi+Jr2BHE6j6zir8XOlyQ48tdcJHDbfyZ5MrL3g=
 github.com/brickKit/mdm-currency/v3 v3.0.33/go.mod h1:WzQEqifMJ6WR2XPOXUovl64ls+4FjaVEiGsHQwq09Nw=
-github.com/brickKit/mdm-employee/v3 v3.0.2 h1:7/a1A8hxBVRQrWEhFAi6+KMLcCuSjNSI1jnoeHJjPFk=
-github.com/brickKit/mdm-employee/v3 v3.0.2/go.mod h1:ad3kwvguBWSUZH4fxOua62jV/MyVMScZMALMl1RMzBw=
+github.com/brickKit/mdm-employee/v3 v3.0.3 h1:d6wGYLLyk4cHgTQ3Y6BeYnmTld15sqhMsOBP9YNsMMI=
+github.com/brickKit/mdm-employee/v3 v3.0.3/go.mod h1:ad3kwvguBWSUZH4fxOua62jV/MyVMScZMALMl1RMzBw=
 github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.3 h1:37nVtAxtWLCY75DkpJb1Q2bVF9MAV67cMkyrI02F/y4=
 github.com/brickKit/mdm-org/contract/v3 v3.0.0-alpha.3/go.mod h1:AUQY6uOj5te0c0rS/uqg3NEt9nvFXAJXv1PFI/nmvrQ=
 github.com/brickKit/mdm-org/v3 v3.0.35 h1:qCPBkf4RBcFKHGjhUgq7MYiOGyhYmH1u6sPp98AOPQA=

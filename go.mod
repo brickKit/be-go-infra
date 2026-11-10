@@ -11,7 +11,7 @@ require (
 	github.com/brickKit/infra-authz/v3 v3.0.47
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.43
 	github.com/brickKit/mdm-currency/v3 v3.0.33
-	github.com/brickKit/mdm-employee/v3 v3.0.2
+	github.com/brickKit/mdm-employee/v3 v3.0.3
 	github.com/brickKit/mdm-org/v3 v3.0.35
 	github.com/brickKit/mdm-partner/v3 v3.0.38
 	github.com/brickKit/mdm-product/v3 v3.0.37
