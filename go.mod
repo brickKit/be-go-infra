@@ -5,17 +5,18 @@ go 1.27.0
 toolchain go1.27.2
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.56
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.127
-	github.com/brickKit/infra-audit/v3 v3.0.42
-	github.com/brickKit/infra-authz/v3 v3.0.52
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.51
-	github.com/brickKit/infra-workflow/v3 v3.0.5
-	github.com/brickKit/mdm-currency/v3 v3.0.37
-	github.com/brickKit/mdm-employee/v3 v3.0.9
-	github.com/brickKit/mdm-org/v3 v3.0.39
-	github.com/brickKit/mdm-partner/v3 v3.0.44
-	github.com/brickKit/mdm-product/v3 v3.0.42
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.57
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.128
+	github.com/brickKit/infra-audit/v3 v3.0.43
+	github.com/brickKit/infra-authz/v3 v3.0.53
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.52
+	github.com/brickKit/infra-notification/v3 v3.0.1
+	github.com/brickKit/infra-workflow/v3 v3.0.6
+	github.com/brickKit/mdm-currency/v3 v3.0.38
+	github.com/brickKit/mdm-employee/v3 v3.0.10
+	github.com/brickKit/mdm-org/v3 v3.0.40
+	github.com/brickKit/mdm-partner/v3 v3.0.45
+	github.com/brickKit/mdm-product/v3 v3.0.43
 )
 
 require (
@@ -23,7 +24,7 @@ require (
 	github.com/MicahParks/keyfunc/v3 v3.8.2 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.123 // indirect
+	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.124 // indirect
 	github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.6 // indirect
 	github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 // indirect
 	github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 // indirect
