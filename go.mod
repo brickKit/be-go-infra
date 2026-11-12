@@ -10,7 +10,7 @@ require (
 	github.com/brickKit/infra-audit/v3 v3.0.41
 	github.com/brickKit/infra-authz/v3 v3.0.51
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.50
-	github.com/brickKit/infra-workflow/v3 v3.0.3
+	github.com/brickKit/infra-workflow/v3 v3.0.4
 	github.com/brickKit/mdm-currency/v3 v3.0.36
 	github.com/brickKit/mdm-employee/v3 v3.0.8
 	github.com/brickKit/mdm-org/v3 v3.0.38
