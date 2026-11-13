@@ -24,4 +24,4 @@
 
 ## 外壳声明
 
-编进来的成员：探针 `test/probe-go`、`test/probe-go2`、`test/probe-go3`、`test/probe-go4`；安全成员 `infra/iam-casdoor`、`infra/authz`、`infra/audit`；主数据 `mdm/org`、`mdm/employee`、`mdm/currency`、`mdm/partner`、`mdm/product`；统一待办 `infra/workflow`；通知 `infra/notification`；附件 `infra/attachment`（严格类别的字节经它转发，大文件直达对象存储）。确切版本只写在 `component.yaml` 的 `shell.members`（与 `go.mod` 一致，装配项目的 pin-check 核对）。
+编进来的成员：探针 `test/probe-go`、`test/probe-go2`、`test/probe-go3`、`test/probe-go4`；安全成员 `infra/iam-casdoor`、`infra/authz`、`infra/audit`；主数据 `mdm/org`、`mdm/employee`、`mdm/currency`、`mdm/partner`、`mdm/product`；统一待办 `infra/workflow`；通知 `infra/notification`；附件 `infra/attachment`（严格类别的字节经它转发，大文件直达对象存储）；钉钉渠道 `integration/im-dingtalk`（与它同壳的成员共用总线连接、能在它的流上发布动作事件，所以只与受信任的成员同壳）。确切版本只写在 `component.yaml` 的 `shell.members`（与 `go.mod` 一致，装配项目的 pin-check 核对）。
