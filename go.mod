@@ -11,9 +11,9 @@ require (
 	github.com/brickKit/infra-audit/v3 v3.0.47
 	github.com/brickKit/infra-authz/v3 v3.0.57
 	github.com/brickKit/infra-iam-casdoor/v3 v3.0.56
-	github.com/brickKit/infra-notification/v3 v3.0.7
+	github.com/brickKit/infra-notification/v3 v3.0.8
 	github.com/brickKit/infra-workflow/v3 v3.0.10
-	github.com/brickKit/integration-im-dingtalk/v3 v3.0.1
+	github.com/brickKit/integration-im-dingtalk/v3 v3.0.2
 	github.com/brickKit/mdm-currency/v3 v3.0.42
 	github.com/brickKit/mdm-employee/v3 v3.0.14
 	github.com/brickKit/mdm-org/v3 v3.0.44

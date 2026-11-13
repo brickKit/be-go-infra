@@ -60,12 +60,12 @@ github.com/brickKit/infra-authz/v3 v3.0.57 h1:370P8q+yCIbTz9PjgcGGnCEBAfarlvoAZ/
 github.com/brickKit/infra-authz/v3 v3.0.57/go.mod h1:6xpVVf3zLd6qRilHQKv0h+W+Ae57SknszOvdZTsECts=
 github.com/brickKit/infra-iam-casdoor/v3 v3.0.56 h1:geLL8EKV/xmNbbsKxzpwegyxfkprKWDm7DADvd/ExbU=
 github.com/brickKit/infra-iam-casdoor/v3 v3.0.56/go.mod h1:eE6U7M1dwHrIBIQkhrBTFZkKx0GoNV/NzNt2GkmCzfQ=
-github.com/brickKit/infra-notification/v3 v3.0.7 h1:NKK1lIqAJDaV/In9UakfsKBXiT8Hh8faz+AU8pECk5Y=
-github.com/brickKit/infra-notification/v3 v3.0.7/go.mod h1:uc3FYinsZLhyJknyBciCVjB7uRYGkW8Y4BOv64MoY9Y=
+github.com/brickKit/infra-notification/v3 v3.0.8 h1:eyP8k1lTlWDMQjeQbDNT+PKtKkLvmAi6IjP47j+JUOo=
+github.com/brickKit/infra-notification/v3 v3.0.8/go.mod h1:uc3FYinsZLhyJknyBciCVjB7uRYGkW8Y4BOv64MoY9Y=
 github.com/brickKit/infra-workflow/v3 v3.0.10 h1:CjRYfE9XPXcF7xdUbCtFjIPLz8eBeXJotyvp+HkYzVw=
 github.com/brickKit/infra-workflow/v3 v3.0.10/go.mod h1:Dh3ulA3JDQAmEZE0WjkGcQmbLArAHJDg62h6/GoKxFI=
-github.com/brickKit/integration-im-dingtalk/v3 v3.0.1 h1:aJH+UzDnm7NMMYMzp+1qTjpUh4MOAjzT0tY8teGWTng=
-github.com/brickKit/integration-im-dingtalk/v3 v3.0.1/go.mod h1:RQRBvrovt9rkAywAeutBLWQ/vN8aKiZVuWkh9Y//tY8=
+github.com/brickKit/integration-im-dingtalk/v3 v3.0.2 h1:vVR6EGguNmBVqDBPjB2KSmrT4o/Lzdslnu7dsog7/K4=
+github.com/brickKit/integration-im-dingtalk/v3 v3.0.2/go.mod h1:RQRBvrovt9rkAywAeutBLWQ/vN8aKiZVuWkh9Y//tY8=
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1 h1:tP73XBUVAT/na/6iE4OjwsWRFGPo9jgLbM30wVBYuCE=
 github.com/brickKit/mdm-currency/contract/v3 v3.0.0-alpha.1/go.mod h1:oMF79YavV/P2KWI4/tDd1TYteCwub000Ru3zRGZoRc4=
 github.com/brickKit/mdm-currency/v3 v3.0.42 h1:DhczCPf/W4QzCGNti4D8uH5UfhIhNMMWfaHrfNow2+Q=
