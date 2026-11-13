@@ -5,20 +5,20 @@ go 1.27.0
 toolchain go1.27.2
 
 require (
-	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.62
-	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.133
-	github.com/brickKit/infra-attachment/v3 v3.0.5
-	github.com/brickKit/infra-audit/v3 v3.0.48
-	github.com/brickKit/infra-authz/v3 v3.0.58
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.57
-	github.com/brickKit/infra-notification/v3 v3.0.10
-	github.com/brickKit/infra-workflow/v3 v3.0.12
-	github.com/brickKit/integration-im-dingtalk/v3 v3.0.3
-	github.com/brickKit/mdm-currency/v3 v3.0.43
-	github.com/brickKit/mdm-employee/v3 v3.0.15
-	github.com/brickKit/mdm-org/v3 v3.0.45
-	github.com/brickKit/mdm-partner/v3 v3.0.50
-	github.com/brickKit/mdm-product/v3 v3.0.48
+	github.com/brickKit/be-acceptance/probes/go/v3 v3.2.63
+	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.134
+	github.com/brickKit/infra-attachment/v3 v3.0.6
+	github.com/brickKit/infra-audit/v3 v3.0.49
+	github.com/brickKit/infra-authz/v3 v3.0.59
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.58
+	github.com/brickKit/infra-notification/v3 v3.0.11
+	github.com/brickKit/infra-workflow/v3 v3.0.13
+	github.com/brickKit/integration-im-dingtalk/v3 v3.0.4
+	github.com/brickKit/mdm-currency/v3 v3.0.44
+	github.com/brickKit/mdm-employee/v3 v3.0.16
+	github.com/brickKit/mdm-org/v3 v3.0.46
+	github.com/brickKit/mdm-partner/v3 v3.0.52
+	github.com/brickKit/mdm-product/v3 v3.0.49
 )
 
 require (
@@ -26,7 +26,7 @@ require (
 	github.com/MicahParks/keyfunc/v3 v3.8.2 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.130 // indirect
+	github.com/brickKit/be-protocol/v3 v3.0.0-alpha.131 // indirect
 	github.com/brickKit/contract-infra-authz/v3 v3.0.0-alpha.7 // indirect
 	github.com/brickKit/infra-attachment/contract/v3 v3.0.0-alpha.1 // indirect
 	github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 // indirect
