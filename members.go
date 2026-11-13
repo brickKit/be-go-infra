@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/brickKit/be-acceptance/probes/go/v3/probe"
 	"github.com/brickKit/be-sdk-go/v3/component"
+	"github.com/brickKit/infra-attachment/v3/attachment"
 	"github.com/brickKit/infra-audit/v3/audit"
 	"github.com/brickKit/infra-authz/v3/authz"
 	"github.com/brickKit/infra-iam-casdoor/v3/iam"
@@ -18,9 +19,9 @@ import (
 // members are the definitions compiled into this shell, at the versions go.mod pins (by tag, never replace); they
 // must equal shell.members in component.yaml (TestMembersMatchTheManifest).
 func members() []component.Definition {
-	// the experiment's probes, step 5's security members, step 6's master data and the worklist (C7) and the notifications (C8); the business
+	// the experiment's probes, step 5's security members, step 6's master data and the worklist (C7), the notifications (C8) and the attachments (C9); the business
 	// members of step 7 go to be-go-core
 	return append(probe.Definitions(), iam.Definition(), authz.Definition(), audit.Definition(), org.Definition(), employee.Definition(),
 		currency.Definition(), partner.Definition(), product.Definition(), workflow.Definition(),
-		notification.Definition())
+		notification.Definition(), attachment.Definition())
 }
