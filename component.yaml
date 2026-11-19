@@ -4,7 +4,7 @@ kind: Component
 metadata:
   id: be/go-infra
   name: Go infra shell
-  version: 3.0.98
+  version: 3.0.99
   description: "The infrastructure shell: one Go process hosting the members compiled in (be-sdk-go's shell launcher)"
   repository: https://github.com/brickKit/be-go-infra
 
@@ -26,7 +26,7 @@ shell:
     - infra/notification@3.0.11
     - infra/attachment@3.0.6
     - integration/im-dingtalk@3.0.4
-    - infra/bff-mobile@3.0.1
+    - infra/bff-mobile@3.0.2
 
 deployment:
   type: container
