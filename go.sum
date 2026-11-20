@@ -62,8 +62,8 @@ github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3 h1:hUS/itAy4TthX8s2Dh
 github.com/brickKit/infra-audit/contract/v3 v3.0.0-alpha.3/go.mod h1:lNvJIGkwHYJd9bv/ngYiKal65x7/M7McyHOzCIKyTSQ=
 github.com/brickKit/infra-audit/v3 v3.0.49 h1:g7a18WhflO60SFiGOZKjbgFovKgsuldsjNopWnjuQzI=
 github.com/brickKit/infra-audit/v3 v3.0.49/go.mod h1:pGGYi8vWWNxMM4Lyg00lcTa8IKaJ/w3Jthoz8SB8QJU=
-github.com/brickKit/infra-authz/v3 v3.0.60 h1:bGpJagAJJNJIzQ8orGdPW6rlHYfO7/EUo4TE7gRQfjY=
-github.com/brickKit/infra-authz/v3 v3.0.60/go.mod h1:iRzXEKC1GbIvL3rUBvlwdeWBXYNIdTmeu3AO6WiEkCI=
+github.com/brickKit/infra-authz/v3 v3.0.61 h1:SVfTKvLSNMPR7g0WML6rPFkoV93ZA7czRx7UQwczMS8=
+github.com/brickKit/infra-authz/v3 v3.0.61/go.mod h1:iRzXEKC1GbIvL3rUBvlwdeWBXYNIdTmeu3AO6WiEkCI=
 github.com/brickKit/infra-bff-mobile/v3 v3.0.2 h1:raz/tS/yBxpdrJJlQ+W7qTdGVwLIq7BULCfGWblv1PM=
 github.com/brickKit/infra-bff-mobile/v3 v3.0.2/go.mod h1:+qBHSbtZPBXD0nqxpemlsYEQ75ZglQLWoMBGXA6iAz8=
 github.com/brickKit/infra-iam-casdoor/v3 v3.0.59 h1:+rdeZ+41Wuc0V63033ERvP5WBaKw97ALiykMNJ0vOb0=
