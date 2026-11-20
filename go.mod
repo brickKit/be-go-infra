@@ -9,9 +9,9 @@ require (
 	github.com/brickKit/be-sdk-go/v3 v3.0.0-alpha.134
 	github.com/brickKit/infra-attachment/v3 v3.0.6
 	github.com/brickKit/infra-audit/v3 v3.0.49
-	github.com/brickKit/infra-authz/v3 v3.0.59
+	github.com/brickKit/infra-authz/v3 v3.0.60
 	github.com/brickKit/infra-bff-mobile/v3 v3.0.2
-	github.com/brickKit/infra-iam-casdoor/v3 v3.0.58
+	github.com/brickKit/infra-iam-casdoor/v3 v3.0.59
 	github.com/brickKit/infra-notification/v3 v3.0.11
 	github.com/brickKit/infra-workflow/v3 v3.0.13
 	github.com/brickKit/integration-im-dingtalk/v3 v3.0.4
